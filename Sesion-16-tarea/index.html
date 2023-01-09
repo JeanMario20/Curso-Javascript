@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="images">
+        <div id="drag4" draggable="true" ondragstart="drag(event)"></div>
+        <div id="drag5" draggable="true" ondragstart="drag(event)"></div>
+        <div id="drag6" draggable="true" ondragstart="drag(event)"></div>
+        <div id="drag7" draggable="true" ondragstart="drag(event)"></div>
+        <div id="drag8" draggable="true" ondragstart="drag(event)"></div>
+        <div id="drag9" draggable="true" ondragstart="drag(event)"></div>
+        <div id="drag10" draggable="true" ondragstart="drag(event)"></div>
+        <div id="drag11" draggable="true" ondragstart="drag(event)"></div>
+        <div id="drag12" draggable="true" ondragstart="drag(event)"></div>
+      </div>
+      
+      <div id="text">
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      </div>
+      
+      <div id="target" ondrop="drop_handler(event);" ondragover="dragover_handler(event);">
+        <img src="images.jfif">
+      </div>
+</body>
+<script src="index.js"></script>
+</html>

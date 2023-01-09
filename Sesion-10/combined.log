@@ -1,0 +1,9 @@
+{"level":"info","message":"HOla esto es un mensaje informativo"}
+{"level":"warn","message":"Esto es un mensaje de advertencia"}
+{"level":"error","message":"esto es un mensaje de error"}
+{"level":"info","message":"HOla esto es un mensaje informativo"}
+{"level":"warn","message":"Esto es un mensaje de advertencia"}
+{"level":"error","message":"esto es un mensaje de error"}
+{"level":"error","message":"esto es un mensaje de error"}
+{"level":"error","message":"esto es un mensaje de error personalizado"}
+{"level":"error","message":"esto es un mensaje de error personalizado"}
